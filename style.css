@@ -42,7 +42,8 @@ i{
     color: rgba(77, 77, 77, 0.75);
 }
 .hr{
-    margin: 10px 5%;
+    margin: 10px 0;
+    margin-left: 5%;
     text-align: left;
     width: 90%;
 }
@@ -88,5 +89,8 @@ i{
     width: 14px;
     height: 14px;
     float: right;
-    margin: 0 15% 0 1%;
+    margin: 0 20px 0 0;
+}
+#message-col-3 h6{
+    font-size: 18px;
 }
