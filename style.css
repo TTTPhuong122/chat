@@ -20,7 +20,7 @@ i{
     height:2.5em;
     margin-left: 1.8em;
 }   
-.nav-link:focus, .nav-link:hover{
+.nav-link:focus, .nav-link:hover, .btn-microphone:hover{
     background-color: #004BE1;
     
 }
@@ -34,27 +34,35 @@ i{
 .form-control{
     border: none;
 }
+/* .form-control:focus, input[type="text"]:focus{
+    border-color: white;    
+} */
 .frame{
     background: #FFFFFF;
     border-radius: 18px;
-    box-shadow: 0px 10px 40px rgb(0 0 0 / 10%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 14px;
     color: rgba(77, 77, 77, 0.75);
 }
 .hr{
-    margin: 10px 0;
-    margin-left: 5%;
+    margin: 10px 4%;
+    margin-left: 4%;
     text-align: left;
-    width: 90%;
+    width: 92%;
 }
 .search .frame{
-    padding: 2%;
+    padding: 5px;
     height: 50px;
 }
 .frame h6{
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
     margin-bottom: 0px;
+}
+.frame h6 span{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(77, 77, 77, 0.75);
 }
 .frame img{
     width: 48px;
@@ -66,31 +74,102 @@ i{
 }
 
 .md-column h6{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .md-column .frame{
     font-size: 12px;
 }
-
+.font-nofication{
+    font-size: 16px;
+}
 .md-column .frame{
-    font-size: 12px;
+    font-size: 10px;
 }
 .md-column img{
     width: 35px;
     height: 35px;
 }
+.md-column span img{
+    height: 14px;
+    width: 14px;
+    float: right;
+    margin: 2px 4em 0 0;
+}
 .md-column h6 span{
-    font-size: 12px;
+    font-size: 10px;
     color: rgba(77, 77, 77, 0.75);
     float: right;
+    padding-right: 13px;
 }
-.md-column span img{
-    width: 14px;
-    height: 14px;
+.md-column button img{
+    width: 18px;
+    height: 18px;
     float: right;
-    margin: 0 20px 0 0;
+    margin: 0 0 0 15px;
 }
 #message-col-3 h6{
+    font-size: 20px;
+}
+.message img{
+    height: 50px;
+}
+.symbol i{
+    color: #000000;
+    font-size: 25px;
+}
+.hr-page3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#page-4,h4{
     font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+#page-4 h6{
+    font-size: 23px;
+}
+.receive-message p{
+    font-size: 16px;
+    background: #CFCFCF;
+    color: #000000;
+    border-radius: 10px;
+    padding: 8px 25px 8px 25px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.send-message p{
+    font-size: 14px;
+    background: #1A66FF;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 25px 8px 25px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.message {
+    font-size: 12px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.col .img-mess-status{
+    width: 20px;
+    height: 18px;
+    margin-top: -1.2em;
+}
+#page-4 .avatar{
+    width: 100px;
+    height: 100px;
+    border: 0;
+    background-color: white;
+    padding: 0;
+}
+#page-4 .avatar img{
+    width: 100px;
+    height: 100px;
+    border: solid #FFFFFF 3px;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
+    border-radius: 50%;
 }

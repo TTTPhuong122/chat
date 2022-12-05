@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>chatting</title>
+  <title>home</title>
   <link href="dist/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/8cb7e9dea8.js" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
                 <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots fa-2x"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-bell fa-2x"></i></a>
+                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-2x"></i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-2x"></i></a>
@@ -35,7 +35,8 @@
             </ul>
           </div>
           <div class="nav-item">
-            <a class="nav-link" href="#" style="height: 50px; padding-top: 10px;"><i class="fas fa-regular fa-right-from-bracket fa-2x text-white"></i></a>
+            <a class="nav-link" href="#" style="height: 50px; padding-top: 10px;"><i
+                class="fas fa-regular fa-right-from-bracket fa-2x text-white"></i></a>
           </div>
         </nav>
 
@@ -64,7 +65,7 @@
                 <div class="col-auto">
                   <img src="images/group1.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Friends Reunions</h6>
                   Hi guys, Wassup!
                 </div>
@@ -75,7 +76,7 @@
                 <div class="col-auto">
                   <img src="images/group2.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Friends Forever</h6>
                   Good to see you
                 </div>
@@ -86,11 +87,11 @@
                 <div class="col-auto">
                   <img src="images/group3.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Crazy Cousins</h6>
                   What plan today?
                 </div>
-                <hr class="hr">
+                <hr class="hr" style="color: white;">
               </div>
             </div>
           </div>
@@ -106,11 +107,12 @@
               </div>
               <div class="row pt-1">
                 <div class="col-auto">
-                  <img src="images/user/user1.png" class="img-fluid flex-nowrap" alt="">
+                  <span><img src="images/user/user1.png" class="img-fluid flex-nowrap" alt=""></span>
                 </div>
-                <div class="col-9 p-0">
-                  <h6>Raghav</h6>
+                <div class="col p-0">
+                  <h6 class="d-flex">Raghav <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today, 8:56pm</span></h6>
                   Dinner?
+                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/seen.png" alt="">
                 </div>
                 <hr class="hr">
               </div>
@@ -119,9 +121,10 @@
                 <div class="col-auto">
                   <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
-                  <h6>Swathi</h6>
+                <div class="col p-0">
+                  <h6 class="d-flex">Swathi <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today, 2:31pm</span></h6>
                   Sure!
+                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/seen-gray.png" alt="">
                 </div>
                 <hr class="hr">
               </div>
@@ -130,9 +133,13 @@
                 <div class="col-auto">
                   <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
-                  <h6>Kiran</h6>
+                <div class="col p-0">
+                  <h6 class="d-flex">Kiran <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Yesterday, 6:22pm</span></h6>
                   Hi.....
+                  <div class="position-relative">
+                    <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/circle.png" alt="" style="width: 22px;height: 22px;">
+                    <p class="position-absolute " style="right: 4em;top: 0;color: white;">2</p>
+                  </div>
                 </div>
                 <hr class="hr">
               </div>
@@ -141,11 +148,12 @@
                 <div class="col-auto">
                   <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
-                  <h6>Tejeshwini C</h6>
+                <div class="col p-0">
+                  <h6 class="d-flex">Tejeshwini C<span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today, 12:22pm</span></h6>
                   I will call him today.
+                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/unread.png" alt="">
                 </div>
-                <hr class="hr">
+                <hr class="hr" style="color: white;">
               </div>
             </div>
           </div>
@@ -165,7 +173,7 @@
                 <div class="col-auto">
                   <img src="images/user/user1.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Raghav <span>Today, 8:56pm</span></h6>
                   Dinner?
                 </div>
@@ -176,7 +184,7 @@
                 <div class="col-auto">
                   <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Swathi <span>Today, 2:31pm</span></h6>
                   Sure!
                 </div>
@@ -187,7 +195,7 @@
                 <div class="col-auto">
                   <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Kiran <span>Yesterday, 6:22pm</span></h6>
                   Hi.....
                 </div>
@@ -198,7 +206,7 @@
                 <div class="col-auto">
                   <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Tejeshwini C <span>Today, 12:22pm</span></h6>
                   I will call him today.
                 </div>
@@ -209,7 +217,7 @@
                 <div class="col-auto">
                   <img src="images/user/user5.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Marvin McKinney <span>Today, 8:56pm</span></h6>
                   legal-tenure.pdf
                 </div>
@@ -220,7 +228,7 @@
                 <div class="col-auto">
                   <img src="images/user/user6.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Kristin Watson <span>Today, 2:31pm</span></h6>
                   floor/reading lamp
                 </div>
@@ -231,7 +239,7 @@
                 <div class="col-auto">
                   <img src="images/user/user7.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Ralph Edwards <span>Yesterday, 5:22pm</span></h6>
                   99%
                 </div>
@@ -242,7 +250,7 @@
                 <div class="col-auto">
                   <img src="images/user/user8.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Savannah Nguyen <span>Yesterday, 1:22pm</span></h6>
                   He’s down on his luck.
                 </div>
@@ -253,7 +261,7 @@
                 <div class="col-auto">
                   <img src="images/user/user9.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Ralph Edwards <span>Yesterday, 4:56pm</span></h6>
                   What a big truck!
                 </div>
@@ -264,7 +272,7 @@
                 <div class="col-auto">
                   <img src="images/user/user10.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Eleanor Pena <span>yesterday</span></h6>
                   Tom is in a big hurry.
                 </div>
@@ -275,7 +283,7 @@
                 <div class="col-auto">
                   <img src="images/user/user11.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Robert Fox <span>2 Days Ago</span></h6>
                   What a big boy he is!
                 </div>
@@ -299,7 +307,7 @@
                 <div class="col-auto">
                   <img src="images/user/user1.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Raghav </h6>
                   Today, 8:56pm
                   <span><img src="images/call.png" alt=""> <img src="images/call-away.png" alt=""></span>
@@ -311,7 +319,7 @@
                 <div class="col-auto">
                   <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Swathi </h6>
                   Today, 2:31pm
                   <span><img src="images/call.png" alt=""> <img src="images/incoming-call .png" alt=""></span>
@@ -323,7 +331,7 @@
                 <div class="col-auto">
                   <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Kiran </h6>
                   Yesterday, 6:22pm
                   <span><img src="images/video-call.png" alt=""> <img src="images/incoming-call .png" alt=""></span>
@@ -335,7 +343,7 @@
                 <div class="col-auto">
                   <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Tejeshwini C </h6>
                   Today, 12:22pm
                   <span><img src="images/call.png" alt=""> <img src="images/incoming-call .png" alt=""></span>
@@ -347,7 +355,7 @@
                 <div class="col-auto">
                   <img src="images/user/user5.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Marvin McKinney </h6>
                   Today, 8:56pm
                   <span><img src="images/video-call.png" alt=""> <img src="images/call-away.png" alt=""></span>
@@ -359,7 +367,7 @@
                 <div class="col-auto">
                   <img src="images/user/user6.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Kristin Watson </h6>
                   Today, 2:31pm
                   <span><img src="images/video-call.png" alt=""> <img src="images/call-away.png" alt=""></span>
@@ -371,7 +379,7 @@
                 <div class="col-auto">
                   <img src="images/user/user7.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Ralph Edwards </h6>
                   Yesterday, 5:22pm
                   <span><img src="images/call.png" alt=""> <img src="images/call-away.png" alt=""></span>
@@ -383,7 +391,7 @@
                 <div class="col-auto">
                   <img src="images/user/user8.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Savannah Nguyen </h6>
                   Yesterday, 1:22pm
                   <span><img src="images/video-call.png" alt=""> <img src="images/incoming-call .png" alt=""></span>
@@ -396,7 +404,7 @@
                 <div class="col-auto">
                   <img src="images/user/user9.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Ralph Edwards </h6>
                   Yesterday, 4:56pm
                   <span><img src="images/call.png" alt=""> <img src="images/incoming-call .png " alt=""></span>
@@ -409,7 +417,7 @@
                 <div class="col-auto">
                   <img src="images/user/user10.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Eleanor Pena </h6>
                   yesterday
                   <span><img src="images/call.png" alt=""> <img src="images/call-away.png" alt=""></span>
@@ -421,7 +429,7 @@
                 <div class="col-auto">
                   <img src="images/user/user11.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col-9 p-0">
+                <div class="col p-0">
                   <h6>Robert Fox</h6>
                   2 Days Ago
                   <span><img src="images/video-call.png" alt=""> <img src="images/incoming-call .png" alt=""></span>
@@ -437,4 +445,5 @@
   </section>
   <script src="dist/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
