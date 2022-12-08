@@ -11,151 +11,153 @@
 </head>
 
 <body>
-  <section class="hero-section">
-    <div class="container-fluid ">
-      <div class="row mt-4">
+  <section class="hero-section font">
+    <div class="container-fluid">
+      <div class="row vh-100 p-4 bg-page">
         <nav name="column-1" class="navbar
-          flex-column  ms-4 col-auto" style="background-color: #1A66FF;">
-          <div class="max-vh-100">
-            <a class="navbar-brand" href="#"><img src="images/avatar.png"
-                style="width: 120px;height: 120px;margin-left: 20px;"></a>
-            <ul class="navbar-nav flex-column my-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-solid fa-house fa-2x"></i></a>
+        flex-column col-auto position-relative h-100">
+
+          <div>
+            <a class="navbar-brand mx-4" href="#"><img src="images/avatar.png" class="mt-3"></a>
+            <ul class="navbar-nav flex-column py-5 ps-1">
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fa fa-solid fa-house fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 mx-4 ps-2" aria-hidden="true"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2" aria-hidden="true"></i></a>
               </li>
             </ul>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="#" style="height: 50px; padding-top: 10px;"><i
-                class="fas fa-regular fa-right-from-bracket fa-2x text-white"></i></a>
+
+            <div class="nav-item position-absolute" style="bottom: 2rem; left: 0.5rem;">
+                <a class="nav-link" href="#" style="height: 50px; padding-top: 10px;"><i class="fas fa-regular fa-right-from-bracket fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 text-white" aria-hidden="true"></i></a>
+              </div>
+            
           </div>
         </nav>
 
-        <div class="col-4  mx-3 container-fluid " name="column-2">
-          <div class="row pb-4 search">
-            <form class="form-group frame">
-              <div class="input-group">
-                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" class="form-control border-start-0" placeholder="Search" aria-label="Username"
-                  aria-describedby="basic-addon1">
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
+        <div class="col-4 container-fluid ps-5 pe-3" name="column-2">
+          <div class="row pb-5 search">
+            <form class="form-group frame pt-1">
+              <div class="input-group mt-1">
+                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass" style="font-size: 19px;"></i></span>
+                <input type="text" class="form-control border-start-0" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1" style="">
+                <button class="input-group-text border-0 btn-3-point"><i class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
             </form>
           </div>
-          <div class="row pb-4 pt-1">
-            <div class="frame">
+          <div class="row pb-5 pt-1">
+            <div class="frame py-2">
               <div class="input-group">
-                <label class="form-control">
+                <label class="form-control ps-2">
                   <h5>Groups</h5>
                 </label>
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="input-group-text border-0 btn-3-point"><i class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/group1.png" class="img-fluid flex-nowrap" alt="">
+              <div class="ps-2">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/group1.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6>Friends Reunions</h6>
+                    Hi guys, Wassup!
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6>Friends Reunions</h6>
-                  Hi guys, Wassup!
-                </div>
-                <hr class="hr">
-              </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/group2.png" class="img-fluid flex-nowrap" alt="">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/group2.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6>Friends Forever</h6>
+                    Good to see you
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6>Friends Forever</h6>
-                  Good to see you
-                </div>
-                <hr class="hr">
-              </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/group3.png" class="img-fluid flex-nowrap" alt="">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/group3.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6>Crazy Cousins</h6>
+                    What plan today?
+                  </div>
+                  <hr class="hr" style="color: white;">
                 </div>
-                <div class="col p-0">
-                  <h6>Crazy Cousins</h6>
-                  What plan today?
-                </div>
-                <hr class="hr" style="color: white;">
               </div>
             </div>
           </div>
 
-          <div class="row pt-1">
-            <div class="frame">
+          <div class="row pb-5 pt-1 frame">
               <div class="input-group">
-                <label class="form-control">
-                  <h5>Recent</h5>
+                <label class="form-control ps-2">
+                  <h5>Recents</h5>
                 </label>
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="input-group-text border-0 btn-3-point"><i class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <span><img src="images/user/user1.png" class="img-fluid flex-nowrap" alt=""></span>
+              <div class="ps-4">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/user/user1.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6 class="d-flex">Raghav <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today,
+                        8:56pm</span></h6>
+                    Dinner?
+                    <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/seen.png" alt="">
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6 class="d-flex">Raghav <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today, 8:56pm</span></h6>
-                  Dinner?
-                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/seen.png" alt="">
-                </div>
-                <hr class="hr">
-              </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6 class="d-flex">Swathi <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today,
+                        2:31pm</span></h6>
+                    Sure!
+                    <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/seen-gray.png" alt="">
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6 class="d-flex">Swathi <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today, 2:31pm</span></h6>
-                  Sure!
-                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/seen-gray.png" alt="">
-                </div>
-                <hr class="hr">
-              </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6 class="d-flex">Kiran <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Yesterday,
+                        6:22pm</span></h6>
+                    Hi.....
+                    <div class="position-relative">
+                      <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/circle.png" alt="" style="width: 22px;height: 22px;">
+                      <p class="position-absolute " style="right: 3.1em;top: 0;color: white;">2</p>
+                    </div>
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6 class="d-flex">Kiran <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Yesterday, 6:22pm</span></h6>
-                  Hi.....
-                  <div class="position-relative">
-                    <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/circle.png" alt="" style="width: 22px;height: 22px;">
-                    <p class="position-absolute " style="right: 4em;top: 0;color: white;">2</p>
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6 class="d-flex">Tejeshwini C<span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today,
+                        12:22pm</span></h6>
+                    I will call him today.
+                    <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/unread.png" alt="">
                   </div>
                 </div>
-                <hr class="hr">
               </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
-                </div>
-                <div class="col p-0">
-                  <h6 class="d-flex">Tejeshwini C<span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today, 12:22pm</span></h6>
-                  I will call him today.
-                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/unread.png" alt="">
-                </div>
-                <hr class="hr" style="color: white;">
-              </div>
-            </div>
           </div>
         </div>
 
@@ -163,11 +165,10 @@
           <div class="row">
             <div class="frame">
               <div class="input-group">
-                <label class="form-control">
+                <label class="form-control ps-2">
                   <h5>Friends</h5>
                 </label>
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="input-group-text border-0 btn-3-point"><i class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
               <div class="row pt-1">
                 <div class="col-auto">
@@ -179,7 +180,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
@@ -190,7 +191,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
@@ -201,7 +202,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
@@ -212,7 +213,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user5.png" class="img-fluid flex-nowrap" alt="">
@@ -223,7 +224,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user6.png" class="img-fluid flex-nowrap" alt="">
@@ -234,7 +235,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user7.png" class="img-fluid flex-nowrap" alt="">
@@ -245,7 +246,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user8.png" class="img-fluid flex-nowrap" alt="">
@@ -256,7 +257,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user9.png" class="img-fluid flex-nowrap" alt="">
@@ -267,7 +268,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user10.png" class="img-fluid flex-nowrap" alt="">
@@ -278,7 +279,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user11.png" class="img-fluid flex-nowrap" alt="">
@@ -292,16 +293,15 @@
             </div>
           </div>
         </div>
-
+  
         <div class="col-3  ms-3 container-fluid md-column" name="column-4">
           <div class="row">
             <div class="frame">
               <div class="input-group">
-                <label class="form-control">
+                <label class="form-control ps-2">
                   <h5>Recent Calls</h5>
                 </label>
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
+                <button class="input-group-text border-0 btn-3-point"><i class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
               <div class="row pt-1">
                 <div class="col-auto">
@@ -314,7 +314,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
@@ -326,7 +326,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
@@ -338,7 +338,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
@@ -350,7 +350,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user5.png" class="img-fluid flex-nowrap" alt="">
@@ -362,7 +362,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user6.png" class="img-fluid flex-nowrap" alt="">
@@ -374,7 +374,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user7.png" class="img-fluid flex-nowrap" alt="">
@@ -386,7 +386,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user8.png" class="img-fluid flex-nowrap" alt="">
@@ -395,11 +395,11 @@
                   <h6>Savannah Nguyen </h6>
                   Yesterday, 1:22pm
                   <span><img src="images/video-call.png" alt=""> <img src="images/incoming-call .png" alt=""></span>
-
+    
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user9.png" class="img-fluid flex-nowrap" alt="">
@@ -408,11 +408,11 @@
                   <h6>Ralph Edwards </h6>
                   Yesterday, 4:56pm
                   <span><img src="images/call.png" alt=""> <img src="images/incoming-call .png " alt=""></span>
-
+    
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user10.png" class="img-fluid flex-nowrap" alt="">
@@ -424,7 +424,7 @@
                 </div>
                 <hr class="hr">
               </div>
-
+    
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user11.png" class="img-fluid flex-nowrap" alt="">
@@ -439,11 +439,18 @@
             </div>
           </div>
         </div>
-
       </div>
+
     </div>
+
+
   </section>
   <script src="dist/bootstrap.bundle.min.js"></script>
+
+
+
+
+
 </body>
 
 </html>

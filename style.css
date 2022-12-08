@@ -2,6 +2,18 @@
     background: #1A66FF;
     border-radius: 20px;
 }
+.nav-brand img{
+    width: 125px;
+    height: 125px;
+}
+.font{
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #000000;
+}
+.bg-page{
+    background-color: #EAEAEA;
+}
 .nav-item{
     width: 161px;
     height: 80px;
@@ -54,6 +66,11 @@ i{
     padding: 5px;
     height: 50px;
 }
+.frame h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
 .frame h6{
     font-size: 18px;
     color: #000000;
@@ -65,8 +82,8 @@ i{
     color: rgba(77, 77, 77, 0.75);
 }
 .frame img{
-    width: 48px;
-    height: 48px;
+    width: 70px;
+    height: 70px;
 }
 
 .btn-3-point:hover{
@@ -87,8 +104,8 @@ i{
     font-size: 10px;
 }
 .md-column img{
-    width: 35px;
-    height: 35px;
+    width: 52.18px;
+    height: 52.18px;
 }
 .md-column span img{
     height: 14px;
@@ -157,7 +174,9 @@ i{
 .col .img-mess-status{
     width: 20px;
     height: 18px;
-    margin-top: -1.2em;
+    margin-top: -0.7em;
+    margin-left: 2em;
+    margin-right: 2.5em;
 }
 #page-4 .avatar{
     width: 100px;
@@ -172,4 +191,7 @@ i{
     border: solid #FFFFFF 3px;
     filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
     border-radius: 50%;
+}
+#fa-ellipsis-vertical{
+    height: 20px;
 }
