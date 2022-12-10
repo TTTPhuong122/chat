@@ -22,8 +22,8 @@
 }
 .nav-link{
     border-radius: 20px 0px 0px 20px;
-    width: 100%;
-    margin-left: 12%;
+    width: 95%;
+    margin-left: 18%;
 }
 i{
     color: #BAD1FF; margin-left: 1em;
@@ -63,6 +63,9 @@ i{
     text-align: left;
     width: 92%;
 }
+.hr-end{
+    color: white;
+}
 .search .frame{
     padding: 5px;
     height: 50px;
@@ -87,7 +90,9 @@ i{
     width: 70px;
     height: 70px;
 }
-
+h5.online{
+    font-size: 14px;
+}
 .btn-3-point:hover{
     background-color: #e9ecef;
 }
@@ -96,7 +101,7 @@ i{
     font-size: 16px;
 }
 .md-column.frame{
-    font-size: 12px;
+    font-size: 14px;
 }
 .md-column .frame{
     font-size: 12px;
@@ -130,7 +135,21 @@ i{
     margin: 0 0 0 15px;
 }
 #message-col-3 h6{
-    font-size: 20px;
+    font-size: 24px;
+}
+#message-col-3 img.avatar{
+    width: 80px;height: 80px;margin: 15px 15px 0 15px;
+}
+#message-col-3 img.online{
+    right: 0.6em;
+    top: 1em;
+}
+#message-col-3 .Polygon{
+    height: 20px;
+}
+#message-col-3 #footer{
+    bottom: 1.5em; 
+    width: 100%;
 }
 .message img{
     height: 50px;
@@ -152,6 +171,7 @@ i{
     font-size: 23px;
 }
 .receive-message p{
+    height: 50px;
     font-size: 16px;
     background: #CFCFCF;
     color: #000000;
@@ -171,7 +191,7 @@ i{
 }
 .message {
     font-size: 12px;
-    height: 500px;
+    /* height: 500px; */
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -212,6 +232,9 @@ img.img-green-cỉcle{
 .message-unread p{
     color: white;
     right: 3.1em;
+}
+div.nav-item{
+    bottom: 2rem; left: 0.5rem;
 }
 div.nav-item a{
     height: 70px; 

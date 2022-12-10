@@ -4,47 +4,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>message</title>
+  <title>home</title>
   <link href="dist/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/8cb7e9dea8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <section class="hero-section">
-    <div class="container-fluid ">
-      <div class="row mt-4">
+  <section class="hero-section font">
+    <div class="container-fluid">
+      <div class="row vh-100 p-4 pe-2 bg-page">
         <nav name="column-1" class="navbar
-          flex-column  ms-4 col-auto" style="background-color: #1A66FF;">
-          <div class="max-vh-80">
-            <a class="navbar-brand" href="#"><img src="images/avatar.png"
-                style="width: 120px;height: 120px;margin-left: 20px;"></a>
-            <ul class="navbar-nav flex-column my-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-solid fa-house fa-2x" aria-hidden="true"></i></a>
+        flex-column col-auto position-relative h-100">
+
+          <div>
+            <a class="navbar-brand mx-4" href="#"><img src="images/avatar.png" class="mt-3"></a>
+            <ul class="navbar-nav flex-column py-5 ps-1">
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i
+                    class="fa fa-solid fa-house fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"
+                    aria-hidden="true"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i
+                    class="fa-solid fa-comment-dots fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-2x" aria-hidden="true"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"
+                    aria-hidden="true"></i></a>
               </li>
             </ul>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="#" style="height: 50px; padding-top: 10px;"><i
-                class="fas fa-regular fa-right-from-bracket fa-2x text-white" aria-hidden="true"></i></a>
+
+            <div class="nav-item position-absolute">
+              <a class="nav-link" href="#"><i
+                  class="fas fa-regular fa-right-from-bracket fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 text-white"
+                  aria-hidden="true"></i></a>
+            </div>
+
           </div>
         </nav>
 
-        <div class="col-4  mx-3 container-fluid " name="column-2">
-          <div class="row pb-4 search">
-            <form class="form-group frame">
-              <div class="input-group">
-                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+        <div class="col-4 container-fluid ps-5 pe-3" name="column-2">
+          <div class="row pb-5 search">
+            <form class="form-group frame pt-1">
+              <div class="input-group mt-1">
+                <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"
+                    style="font-size: 19px;"></i></span>
                 <input type="text" class="form-control border-start-0" placeholder="Search" aria-label="Username"
                   aria-describedby="basic-addon1">
                 <button class="input-group-text border-0 btn-3-point"><i
@@ -52,67 +60,70 @@
               </div>
             </form>
           </div>
-          <div class="row pb-4 pt-1">
-            <div class="frame">
+          <div class="row pb-5 pt-1">
+            <div class="frame py-2">
               <div class="input-group">
-                <label class="form-control">
+                <label class="form-control ps-2">
                   <h5>Groups</h5>
                 </label>
                 <button class="input-group-text border-0 btn-3-point"><i
                     class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/group1.png" class="img-fluid flex-nowrap" alt="">
+              <div class="ps-2">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/group1.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6>Friends Reunions</h6>
+                    Hi guys, Wassup!
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6>Friends Reunions</h6>
-                  Hi guys, Wassup!
-                </div>
-                <hr class="hr">
-              </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/group2.png" class="img-fluid flex-nowrap" alt="">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/group2.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6>Friends Forever</h6>
+                    Good to see you
+                  </div>
+                  <hr class="hr">
                 </div>
-                <div class="col p-0">
-                  <h6>Friends Forever</h6>
-                  Good to see you
-                </div>
-                <hr class="hr">
-              </div>
 
-              <div class="row pt-1">
-                <div class="col-auto">
-                  <img src="images/group3.png" class="img-fluid flex-nowrap" alt="">
+                <div class="row pt-1">
+                  <div class="col-auto">
+                    <img src="images/group3.png" class="img-fluid flex-nowrap" alt="">
+                  </div>
+                  <div class="col px-0 pt-3">
+                    <h6>Crazy Cousins</h6>
+                    What plan today?
+                  </div>
+                  <hr class="hr hr-end">
                 </div>
-                <div class="col p-0">
-                  <h6>Crazy Cousins</h6>
-                  What plan today?
-                </div>
-                <hr class="hr" style="color: white;">
               </div>
             </div>
           </div>
 
-          <div class="row pt-1">
-            <div class="frame">
-              <div class="input-group">
-                <label class="form-control">
-                  <h5>Recent</h5>
-                </label>
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
-              </div>
+          <div class="row footer pt-1 frame">
+            <div class="input-group">
+              <label class="form-control ps-2">
+                <h5>Recents</h5>
+              </label>
+              <button class="input-group-text border-0 btn-3-point"><i
+                  class="fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+            <div class="ps-4">
               <div class="row pt-1">
                 <div class="col-auto">
-                  <span><img src="images/user/user1.png" class="img-fluid flex-nowrap" alt=""></span>
+                  <img src="images/user/user1.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col p-0">
-                  <h6>Raghav</h6>
+                <div class="col px-0 pt-3">
+                  <h6 class="d-flex">Raghav <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today,
+                      8:56pm</span></h6>
                   Dinner?
-                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/seen.png" alt="">
+                  <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/seen.png" alt="">
                 </div>
                 <hr class="hr">
               </div>
@@ -120,11 +131,14 @@
               <div class="row pt-1">
                 <div class="col-auto">
                   <img src="images/user/user2.png" class="img-fluid flex-nowrap" alt="">
+                  <img class="position-absolute img-green-cỉcle" src="images/online.png" alt=""
+                    style="margin-top: 60px;">
                 </div>
-                <div class="col p-0">
-                  <h6>Swathi</h6>
+                <div class="col px-0 pt-3">
+                  <h6 class="d-flex">Swathi <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today,
+                      2:31pm</span></h6>
                   Sure!
-                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/seen-gray.png" alt="">
+                  <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/seen-gray.png" alt="">
                 </div>
                 <hr class="hr">
               </div>
@@ -133,119 +147,107 @@
                 <div class="col-auto">
                   <img src="images/user/user3.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col p-0">
-                  <h6>Kiran</h6>
+                <div class="col px-0 pt-3">
+                  <h6 class="d-flex">Kiran <span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Yesterday,
+                      6:22pm</span></h6>
                   Hi.....
-                  <div class="position-relative">
-                    <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/circle.png" alt="" style="width: 22px;height: 22px;">
-                    <p class="position-absolute " style="right: 4em;top: 0;color: white;">2</p>
+                  <div class="position-relative message-unread">
+                    <img class="d-flex flex-row-reverse ms-auto img-mess-status" src="images/circle.png" alt="">
+                    <p class="position-absolute top-0 count-message">2</p>
                   </div>
                 </div>
                 <hr class="hr">
               </div>
-
-              <div class="row pt-1">
+              <div class="row pt-1" style="padding-bottom: 22px;">
                 <div class="col-auto">
                   <img src="images/user/user4.png" class="img-fluid flex-nowrap" alt="">
                 </div>
-                <div class="col p-0">
-                  <h6>Tejeshwini C</h6>
+                <div class="col px-0 pt-3">
+                  <h6 class="d-flex">Tejeshwini C<span class="col-auto ms-auto me-4 pe-1 d-flex flex-row-reverse">Today,
+                      12:22pm</span></h6>
                   I will call him today.
-                  <img class="d-flex flex-row-reverse ms-auto me-5 img-mess-status" src="images/unread.png" alt="">
+                  <img class="d-flex flex-row-reverse ms-auto  img-mess-status" src="images/unread.png" alt="">
                 </div>
-                <hr class="hr" style="color: white;">
               </div>
             </div>
+
           </div>
         </div>
-
         <div class="col mx-3 container-fluid md-column frame position-relative" name="column-3" id="message-col-3">
           <div class="row">
             <div class="col-auto position-relative">
-              <img src="images/user/user1.png" style="width: 80px;height: 80px;margin: 15px 15px 0 15px;"
-                class="img-fluid flex-nowrap" alt="">
-              <img class="position-absolute" src="images/online.png" alt=""
-                style="margin-top: 55%;transform: translate(-3em,0);">
+              <img src="images/user/user2.png" class="img-fluid flex-nowrapn avatar" alt="">
+              <img class="position-absolute mt-5 p-1 online" src="images/online.png" alt="">
             </div>
             <div class="col-auto p-0 mt-4">
-              <h6>Raghav </h6>
-              Online
+              <h6>Swathi </h6>
+              <h5 class="online">Online</h5>
             </div>
             <div class="col p-4 d-flex flex-row-reverse">
               <button class="input-group-text border-0 btn-3-point p-md-0 px-xl-3">
                 <i class="fa-solid fa-ellipsis-vertical"></i></button>
-              <button class="input-group-text border-0 btn-3-point px-md-0 px-xl-3 flex-nowrap"><img
-                  src="images/video-call.png" alt=""> </button>
-              <button class="input-group-text border-0 btn-3-point p-md-0 px-xl-3"><img src="images/call-away.png"
-                  alt=""></button>
+              <button class="input-group-text border-0 btn-3-point px-md-0 px-xl-3 flex-nowrap"><img src="images/video-call.png" alt="" style="width: 28px;"> </button>
+              <button class="input-group-text border-0 btn-3-point p-md-0 px-xl-3"><img src="images/call-away.png" alt=""></button>
             </div>
-            <hr class="hr">
+            <hr class="hr mt-4">
           </div>
-          <div class="message">
+          <div class="message mt-3">
             <div class="row position-relative mx-4 mt-4 receive-message">
-              <img class="position-absolute bottom-0 p-0 ms-1" src="images/Polygon-gray.png" alt=""
-                style="height: 20px;">
+              <img class="position-absolute bottom-0 p-0 ms-1 Polygon" src="images/Polygon-gray.png" alt="">
               <div class="col-auto ms-2">
                 <p>Hey There !</p>
               </div>
             </div>
             <div class="row ms-4 ps-2 my-2">Today, 2:01pm</div>
 
-            <div class="row position-relative mx-4 mt-3 receive-message">
-              <img class="position-absolute bottom-0 p-0 ms-1" src="images/Polygon-gray.png" alt=""
-                style="height: 20px;">
-              <div class="col-auto ms-2">
+            <div class="row position-relative mx-4 mt-4 receive-message">
+              <img class="position-absolute bottom-0 p-0 ms-1 Polygon" src="images/Polygon-gray.png" alt="">
+              <div class="col-auto ms-2 mt-3">
                 <p>How are you doing?</p>
               </div>
             </div>
             <div class="row ms-4 ps-2 my-2">Today, 2:02pm</div>
 
-            <div class="row position-relative mx-4 mt-3 send-message d-flex flex-row-reverse">
-              <img class="position-absolute bottom-0 p-0 ms-1" src="images/Polygon-blue.png" alt=""
-                style="height: 20px;">
-              <div class="col-auto ms-2">
+            <div class="row position-relative mx-4 mt-4 send-message d-flex flex-row-reverse">
+              <img class="position-absolute bottom-0 p-0 ms-1 Polygon" src="images/Polygon-blue.png" alt="">
+              <div class="col-auto ms-2 mt-3">
                 <p>Hello...</p>
               </div>
             </div>
             <div class="row me-4 pe-2 my-2 d-flex flex-row-reverse">Today, 2:2pm</div>
 
-            <div class="row position-relative mx-4 mt-3 send-message d-flex flex-row-reverse">
-              <img class="position-absolute bottom-0 p-0 ms-1" src="images/Polygon-blue.png" alt=""
-                style="height: 20px;">
-              <div class="col-auto ms-2">
+            <div class="row position-relative mx-4 mt-4 send-message d-flex flex-row-reverse">
+              <img class="position-absolute bottom-0 p-0 ms-1 Polygon" src="images/Polygon-blue.png" alt="">
+              <div class="col-auto ms-2 mt-3">
                 <p>I am good and how about you?</p>
               </div>
             </div>
             <div class="row me-4 pe-2 my-2 d-flex flex-row-reverse">Today, 2:2pm</div>
 
-            <div class="row position-relative mx-4 mt-3 receive-message">
-              <img class="position-absolute bottom-0 p-0 ms-1" src="images/Polygon-gray.png" alt=""
-                style="height: 20px;">
-              <div class="col-auto ms-2">
+            <div class="row position-relative mx-4 mt-4 receive-message">
+              <img class="position-absolute bottom-0 p-0 ms-1 Polygon" src="images/Polygon-gray.png" alt="">
+              <div class="col-auto ms-2 mt-3">
                 <p>I am doing well. Can we meet up tomorrow?</p>
               </div>
             </div>
             <div class="row ms-4 ps-2 my-2">Today, 2:13pm</div>
 
-            <div class="row position-relative mx-4 mt-3 send-message d-flex flex-row-reverse">
-              <img class="position-absolute bottom-0 p-0 ms-1" src="images/Polygon-blue.png" alt=""
-                style="height: 20px;">
-              <div class="col-auto ms-2">
+            <div class="row position-relative mx-4 mt-4 send-message d-flex flex-row-reverse">
+              <img class="position-absolute bottom-0 p-0 ms-1 Polygon" src="images/Polygon-blue.png" alt="">
+              <div class="col-auto ms-2 mt-3">
                 <p>Sure!</p>
               </div>
             </div>
             <div class="row me-4 pe-2 my-2 d-flex flex-row-reverse">Today, 2:pm</div>
           </div>
 
-          <div class="row position-absolute" style="bottom: 1.5em; width: 100%;">
+          <div class="row position-absolute" id="footer">
             <hr class="hr my-4">
             <div class="input-group col ms-3">
-              <button class="input-group-text ps-0 btn-link border-0" style="background-color: #CFCFCF;"><img
-                  src="images/link.png" alt=""></button>
+              <button class="input-group-text ps-0 btn-link border-0" style="background-color: #CFCFCF;"><img src="images/link.png" alt=""></button>
               <input type="text" class="form-control border-start-0" style="background-color: #CFCFCF;">
             </div>
-            <button class="input-group-text border-0 col-auto me-4 pe-0 btn-microphone"
-              style="background-color: #1A66FF;"><i class="fa-solid fa-microphone pe-3 ps-1 ms-0"></i></button>
+            <button class="input-group-text border-0 col-auto me-4 pe-0 btn-microphone" style="background-color: #1A66FF;"><i class="fa-solid fa-microphone pe-3 ps-1 ms-0"></i></button>
           </div>
 
         </div>
