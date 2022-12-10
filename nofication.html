@@ -4,55 +4,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nofication</title>
+  <title>home</title>
   <link href="dist/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/8cb7e9dea8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <section class="hero-section">
+  <section class="hero-section font">
     <div class="container-fluid">
-      <div class="row mt-4">
+      <div class="row vh-100 p-4 pe-2 bg-page">
         <nav name="column-1" class="navbar
-          flex-column  ms-4 col-auto" style="background-color: #1A66FF;">
-          <div class="max-vh-80">
-            <a class="navbar-brand" href="#"><img src="images/avatar.png"
-                style="width: 120px;height: 120px;margin-left: 20px;"></a>
-            <ul class="navbar-nav flex-column my-3">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-light fa-house fa-2x" aria-hidden="true"></i></a>
+        flex-column col-auto position-relative h-100">
+
+          <div>
+            <a class="navbar-brand mx-4" href="#"><img src="images/avatar.png" class="mt-3"></a>
+            <ul class="navbar-nav flex-column py-5 ps-1">
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i
+                    class="fa fa-solid fa-house fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"
+                    aria-hidden="true"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i
+                    class="fa-solid fa-comment-dots fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-2x"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fa-regular fa-bell fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"></i></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-2x" aria-hidden="true"></i></a>
+              <li class="nav-item my-4">
+                <a class="nav-link" href="#"><i class="fas fa-regular fa-gear fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2"
+                    aria-hidden="true"></i></a>
               </li>
             </ul>
-          </div>
-          <div class="nav-item">
-            <a class="nav-link" href="#" style="height: 50px; padding-top: 10px;"><i
-                class="fas fa-regular fa-right-from-bracket fa-2x text-white" aria-hidden="true"></i></a>
+
+            <div class="nav-item position-absolute">
+              <a class="nav-link" href="#"><i
+                  class="fas fa-regular fa-right-from-bracket fa-3x mx-4 ps-2 mx-4 ps-2 mx-4 ps-2 text-white"
+                  aria-hidden="true"></i></a>
+            </div>
+
           </div>
         </nav>
-
-        <div class="col-sm  ms-3 me-4 container-fluid " id="column-2">
+        <div class="col-sm  ms-3 me-4 container-fluid d-flex flex-column" id="column-2">
           <div class="row pb-4 search">
             <form class="form-group frame">
               <div class="input-group">
                 <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" class="form-control border-start-0" placeholder="Search" aria-label="Username"
-                  aria-describedby="basic-addon1">
-                <button class="input-group-text border-0 btn-3-point"><i
-                    class="fa-solid fa-ellipsis-vertical"></i></button>
+                <input type="text" class="form-control border-start-0" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                <button class="input-group-text border-0 btn-3-point"><i class="fa-solid fa-ellipsis-vertical"></i></button>
               </div>
             </form>
           </div>
-          <div class="row frame pt-3 pb-5 overflow-auto font-nofication" style="height: 83.5vh;">
+          <div class="row frame pt-3 pb-5 overflow-auto font-nofication" style="">
             <div class="row">
               <div class="col-auto mx-2 symbol ">
                 <i class="fa-solid fa-bell"></i>
@@ -135,7 +139,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
   <script src="dist/bootstrap.bundle.min.js"></script>

@@ -108,6 +108,7 @@ h5.online{
 }
 .font-nofication{
     font-size: 16px;
+    flex-grow: 1;
 }
 .md-column .frame{
     font-size: 10px;
