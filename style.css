@@ -18,11 +18,12 @@
     width: 161px;
     height: 80px;
     margin-top: 1em;
+    /* float: right; */
 }
 .nav-link{
     border-radius: 20px 0px 0px 20px;
-    width: 85%;
-    float: right;
+    width: 100%;
+    margin-left: 12%;
 }
 i{
     color: #BAD1FF; margin-left: 1em;
@@ -57,7 +58,7 @@ i{
     color: rgba(77, 77, 77, 0.75);
 }
 .hr{
-    margin: 10px 4%;
+    margin: 13px 21px;
     margin-left: 4%;
     text-align: left;
     width: 92%;
@@ -75,6 +76,7 @@ i{
     font-size: 18px;
     color: #000000;
     margin-bottom: 0px;
+    font-weight: 600;
 }
 .frame h6 span{
     font-size: 12px;
@@ -93,7 +95,9 @@ i{
 .md-column h6{
     font-size: 16px;
 }
-
+.md-column.frame{
+    font-size: 12px;
+}
 .md-column .frame{
     font-size: 12px;
 }
@@ -108,10 +112,10 @@ i{
     height: 52.18px;
 }
 .md-column span img{
-    height: 14px;
-    width: 14px;
+    height: 12px;
+    width: 12px;
     float: right;
-    margin: 2px 4em 0 0;
+    margin: 2px 3em 0 0;
 }
 .md-column h6 span{
     font-size: 10px;
@@ -172,8 +176,8 @@ i{
     overflow-x: hidden;
 }
 .col .img-mess-status{
-    width: 20px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     margin-top: -0.7em;
     margin-left: 2em;
     margin-right: 2.5em;
@@ -194,4 +198,22 @@ i{
 }
 #fa-ellipsis-vertical{
     height: 20px;
+}
+.md-column img.img-video-call{
+    width: 20px;
+    height: 20px;
+}
+img.img-green-cỉcle{
+    margin-top: 43px;
+    transform: translate(-2.1em,-1em);
+    height: 35px;
+    width: 35px;
+}
+.message-unread p{
+    color: white;
+    right: 3.1em;
+}
+div.nav-item a{
+    height: 70px; 
+    padding-top: 10px;
 }
