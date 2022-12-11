@@ -22,8 +22,8 @@
 }
 .nav-link{
     border-radius: 20px 0px 0px 20px;
-    width: 95%;
-    margin-left: 18%;
+    width: 84%;
+    margin-left: 14%;
 }
 i{
     color: #BAD1FF; margin-left: 1em;
@@ -163,14 +163,6 @@ h5.online{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-#page-4,h4{
-    font-size: 18px;
-    font-weight: 400;
-    color: #000000;
-}
-#page-4 h6{
-    font-size: 23px;
-}
 .receive-message p{
     height: 50px;
     font-size: 16px;
@@ -203,20 +195,6 @@ h5.online{
     margin-left: 2em;
     margin-right: 2.5em;
 }
-#page-4 .avatar{
-    width: 100px;
-    height: 100px;
-    border: 0;
-    background-color: white;
-    padding: 0;
-}
-#page-4 .avatar img{
-    width: 100px;
-    height: 100px;
-    border: solid #FFFFFF 3px;
-    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.5));
-    border-radius: 50%;
-}
 #fa-ellipsis-vertical{
     height: 20px;
 }
@@ -240,4 +218,47 @@ div.nav-item{
 div.nav-item a{
     height: 70px; 
     padding-top: 10px;
+}
+#notification .frame{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+#notification h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+        font-family: 'Poppins';
+        line-height: 30px;
+        font-style: normal;
+}
+#notification h6{
+    font-size: 23px;
+}
+#notification button.avatar{
+    background-image: url(images/avatar.png);
+    width: 100px;
+    height: 110px;
+    background-repeat: no-repeat;
+    border: solid #FFFFFF 3px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    border-radius: 50%;
+}
+#notification .qr{
+    width: 25px;
+    height: 25px;
+}
+#notification .option a{text-decoration: none;color: black;}
+#notification .option img{
+    width: 25px;
+    height: 25px;
+}
+#notification .footer{
+    bottom: 40px;
+    color: rgba(0, 0, 0, 0.5);
+    right: 50%;
+}
+#notification .col-6{
+    width: 48%;
 }
